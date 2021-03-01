@@ -2,7 +2,7 @@
 
   change videospeed even in fullscreen mode
   change speed faster with + key
-  change speed slower with + key
+  change speed slower with - key
 
 */
 
