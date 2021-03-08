@@ -8,12 +8,19 @@
 
 if (document.getElementById('efyt-speed-plus')){
   document.addEventListener ("keypress", function (event) {
+//efyt-size
+   event.key=="*"? document.getElementById('efyt-size').click():{};
+   event.key=="z"? document.getElementById('efyt-size').click():{};
    event.key=="+"? document.getElementById('efyt-speed-plus').click():{};
    event.key=="-"? document.getElementById('efyt-speed-minus').click():{};
   });
 }
 else{
   document.addEventListener ("keypress", function (event) {
+    //resize
+   event.key=="*"? document.querySelector('[data-name="resize"]').click():{};
+   event.key=="z"? document.querySelector('[data-name="resize"]').click():{}; 
+    
    event.key=="+"? document.querySelector('[data-name="speedup"]').click():{};
    event.key=="-"? document.querySelector('[data-name="slowdown"]').click():{};
   });
